@@ -1,0 +1,270 @@
+    /* Google Fonts - Poppins */
+    
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+    /* Example CSS styles for social icons */
+    
+    .social-icons {
+        margin-top: 20px;
+    }
+    
+    .social-icons a {
+        margin-right: 10px;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        /* Adjust the size as needed */
+        height: auto;
+        margin-top: 10px;
+    }
+    /* search bar start */
+    
+    .input-box {
+        position: absolute;
+        height: 56px;
+        max-width: 500px;
+        width: 100%;
+        background: #fff;
+        margin: 0 20px;
+        border-radius: 8px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        margin-left: 1050px;
+        margin-top: 6px;
+    }
+    
+    .input-box i,
+    .input-box .button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .input-box i {
+        left: 20px;
+        font-size: 30px;
+        color: #707070;
+    }
+    
+    .input-box input {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        font-size: 18px;
+        font-weight: 400;
+        border: none;
+        padding: 0 155px 0 65px;
+        background-color: transparent;
+    }
+    
+    .input-box .button {
+        right: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border: none;
+        padding: 12px 30px;
+        border-radius: 6px;
+        background-color: #4070f4;
+        cursor: pointer;
+    }
+    
+    .input-box .button:active {
+        transform: translateY(-50%) scale(0.98);
+    }
+    /* Responsive */
+    
+    @media screen and (max-width: 500px) {
+        .input-box {
+            height: 66px;
+            margin: 0 8px;
+        }
+        .input-box i {
+            left: 12px;
+            font-size: 25px;
+        }
+        .input-box input {
+            padding: 0 112px 0 50px;
+        }
+        .input-box .button {
+            right: 12px;
+            font-size: 14px;
+            padding: 8px 18px;
+        }
+    }
+    /* search bar ends bitch */
+    /* foter design */
+    
+    .p2 {
+        position: absolute;
+        margin-left: 700px;
+        margin-top: 30%;
+    }
+    
+    .form1 {
+        position: absolute;
+        background-color: #D14836;
+        padding: 0.6em 1.3em;
+        font-size: 20px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 0.4em;
+        box-shadow: 0.3em 0.3em white;
+        color: rgb(0, 0, 0);
+        height: 52%;
+        width: 20%;
+        margin-left: 1300px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    
+    .feed {
+        width: 355px;
+        font-size: 20px;
+    }
+    
+    .btn1 {
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -2.50em;
+    }
+    
+    .int1 {
+        width: 350px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .ques {
+        position: absolute;
+        margin-left: 1260px;
+        margin-top: 10px;
+        font-size: 23px;
+    }
+    
+    .imglast {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    
+    .last1 {
+        font-size: 55px;
+        margin-left: 140px;
+        margin-top: 60px;
+        position: absolute;
+    }
+    
+    .container1 {
+        position: absolute;
+        display: flex;
+        /* gap: 10px; */
+        margin-left: 150px;
+        margin-top: 160px;
+        font-size: 30px;
+    }
+    /* about us travels tips ud social design */
+    
+    .uls {
+        margin-left: -5em;
+    }
+    
+    .divs11 {
+        text-decoration: underline;
+        font-family: Courier New;
+    }
+    
+    .divs12 {
+        text-decoration: underline;
+        font-family: Courier New;
+        margin-left: 90px;
+    }
+    
+    .divs13 {
+        text-decoration: underline;
+        font-family: Courier New;
+        margin-left: 50px;
+    }
+    /* inside the ul, li */
+    
+    .divs1 {
+        margin-left: -3.50em;
+        margin-top: 30px;
+        font-family: Courier New;
+        font-size: 22px;
+    }
+    
+    .divs2 {
+        position: absolute;
+        margin-left: 52%;
+        margin-top: 30px;
+        font-family: Courier New;
+        font-size: 22px;
+    }
+    
+    .divs3 {
+        position: absolute;
+        margin-left: 95%;
+        margin-top: 30px;
+        font-family: Courier New;
+        font-size: 22px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    /* tab tab  */
+    /* Basic styling for tabs */
+    
+    .tab {
+        position: absolute;
+        /* overflow: hidden; */
+        /* border: 1px solid #ccc; */
+        margin-left: 35%;
+    }
+    /* Style the buttons that are used to open the tab content */
+    
+    .tab button {
+        background-color: lavenderblush;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        color: black;
+        border: 1px solid #ccc;
+        margin: 10px;
+    }
+    /* Change background color of buttons on hover */
+    
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    /* Create an active/current tablink class */
+    
+    .tab button.active {
+        background-color: #D14836;
+    }
+    /* Style the tab content */
+    
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        /* border: 1px solid #ccc; */
+        border-top: none;
+        margin-top: 100px;
+        color: white;
+    }
+    /* tab name size */
+    
+    .tabclass {
+        font-size: 160%;
+        margin-top: -1em;
+    }
+    
+    .tab1 {
+        font-size: 170%;
+    }

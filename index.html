@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7c52625b7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>THE FORUM | HCI-102</title>
+    <link rel="shortcut icon" href="./img/log2.png" type="image/x-icon">
+    <!-- CSS -->
+    <!-- Unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <style>
+        body {
+            /* background-color: #F9B872; */
+            background-image: url(./img/bg2.png);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .img2 {
+            width: 80%;
+            height: 700px;
+            margin-left: 200px;
+            border-radius: 20px;
+            border: 5px solid;
+            border-color: rgba(255, 255, 255, 0.74);
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        
+        ul li {
+            margin-left: 20px;
+            margin-top: 24px;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        li a:hover {
+            text-decoration: underline;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin-left: 550px;
+        }
+        /* .fa-lock {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: #000000;
+        } */
+        
+        .intput1 {
+            position: absolute;
+            width: 200px;
+            height: 30px;
+            margin-left: 58%;
+            border-radius: 40px;
+            margin-top: 15px;
+        }
+        
+        .div1 {
+            background-color: #D14836;
+            margin-top: -1em;
+        }
+        
+        .div2 {
+            position: absolute;
+            color: white;
+            margin-left: 300px;
+            margin-top: 300px;
+        }
+        
+        .div3 {
+            position: absolute;
+            color: white;
+            margin-left: 1100px;
+            margin-top: 190px;
+        }
+        
+        .div4 {
+            position: absolute;
+            margin-left: 1100px;
+            margin-top: 300px;
+            box-shadow: 0.3em 0.3em white;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 0.4em;
+        }
+        
+        .img3 {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+            margin-left: -1.90em;
+            border-radius: 20px;
+        }
+        
+        section {
+            padding: 2em;
+        }
+        
+        .lis1 {
+            margin-left: 60px;
+        }
+        /* button haver */
+        
+        button {
+            /* background: linear-gradient(to right, rgb(241, 225, 119), 
+            rgb(180, 67, 241)); */
+            background-color: #D14836;
+            font-family: monospace;
+            padding: 0.6em 1.3em;
+            font-weight: 900;
+            font-size: 18px;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 0.4em;
+            box-shadow: 0.3em 0.3em white;
+            color: rgb(255, 255, 255);
+        }
+        
+        button:hover {
+            transform: translate(-0.05em, -0.05em);
+            box-shadow: 0.17em 0.15em;
+        }
+        
+        button:active {
+            transform: translate(0.05em, 0.05em);
+            box-shadow: 0.05em 0.05em;
+        }
+        /*  end of button hover*/
+        
+        .he1 {
+            font-size: 390%;
+            /* font-family: monospace; */
+        }
+        
+        .he2 {
+            color: white;
+            font-size: 25px;
+            margin-top: -0.55;
+        }
+        
+        .p1 {
+            font-size: 200%;
+            /* font-family: monospace; */
+            margin-top: -1.50em;
+        }
+        
+        .title2 {
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+            /* font-family: monospace; */
+        }
+        
+        .tit2 {
+            text-decoration: underline;
+            color: white;
+        }
+        
+        .tit0 {
+            color: white;
+        }
+        /* home2 */
+        
+        .home2 {
+            position: absolute;
+            margin-top: -6em;
+            margin-left: 11%;
+            width: 77%;
+        }
+        
+        .home3 {
+            margin-top: 90%;
+        }
+        /* box 1 to 3 */
+        
+        .box {
+            display: flex;
+            text-align: center;
+        }
+        
+        .boxx {
+            display: flex;
+            text-align: center;
+            margin-left: -0.50em;
+        }
+        
+        .box1 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 1px;
+            border-radius: 20px;
+        }
+        
+        .box2 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 10px;
+            border-radius: 20px;
+        }
+        
+        .box3 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 9px;
+            border-radius: 20px;
+        }
+        
+        .box11 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 9px;
+            border-radius: 20px;
+        }
+        
+        .box12 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 9px;
+            border-radius: 20px;
+        }
+        
+        .box13 {
+            width: 450px;
+            height: 650px;
+            background-color: #D14836;
+            margin-left: 9px;
+            border-radius: 20px;
+        }
+        /* im1 to im 3 */
+        
+        .im1 {
+            width: 360px;
+            height: 360px;
+            margin-left: 5px;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+        /* text inside the boxes */
+        
+        .t1 {
+            /* font-family: monospace; */
+            font-weight: lighter;
+            font-size: 30px;
+        }
+        /* .l1 {
+            margin-top: 80px;
+            font-family: monospace;
+            color: #000000;
+            font-size: 20px;
+        }
+        
+        .l1:hover {
+            text-decoration: underline;
+        } */
+        
+        .l1 {
+            margin-top: 40px;
+        }
+        /* home3 */
+        
+        .boxs {
+            display: flex;
+            margin-left: 199px;
+        }
+        
+        .box4 {
+            background-color: #D14836;
+            width: 1375px;
+            height: 650px;
+            border-radius: 20px;
+        }
+        
+        .im2 {
+            width: 660px;
+            height: 560px;
+            margin-left: 50px;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+        
+        .a1 {
+            position: absolute;
+            margin-left: 900px;
+            margin-top: -19em;
+            margin-left: 47.50%
+        }
+        
+        .a2 {
+            position: absolute;
+            margin-left: 47.50%;
+            margin-top: -12em;
+            font-size: 35px;
+            /* font-family: Courier New; */
+            /* font-family: Tahoma; */
+        }
+        
+        .last {
+            position: absolute;
+            display: flex;
+            margin-left: 790px;
+            margin-top: -30em;
+        }
+        
+        .n1 {
+            width: 80px;
+            height: 80px;
+            margin-top: -4.50em;
+            margin-left: -1.50em;
+        }
+        
+        .n2 {
+            font-size: 60px;
+            margin-top: -1em;
+        }
+        
+        .l2 {
+            position: absolute;
+            margin-left: 200px;
+            margin-top: 500px;
+            width: 300px;
+        }
+        /* foter */
+        
+        footer {
+            /* position: fixed; */
+            margin-bottom: -1em;
+            width: 100%;
+            height: 590px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.993);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <!-- <i class="fa fa-lock"></i> -->
+        <div class="input-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search here..." />
+            <button class="button">Search</button>
+        </div>
+        <div id="results">
+            <!-- Search results will be displayed here -->
+        </div>
+        <nav>
+            <ul>
+                <img class="img3" src="./img/log2.png" alt="">
+                <h1 class="he2">THE FORUM</h1>
+                <li class="lis1"><a href="#">HOME</a></li>
+                <li class="lis2"><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <section id="home">
+
+        <div class="div2">
+            <h1 class="he1">I’M JAY C. MOLINA</h1>
+            <p class="p1"> As a passionate traveler and food enthusiast,<br>I invite you to join me on a thrilling journey<br>where we'll explore breathtaking destinations<br>and indulge in delectable cuisines from around<br>the globe.
+            </p>
+            <button> READ MY BLOG </button>&nbsp;&nbsp;&nbsp;
+            <button> WATCH MY VIDEO </button>
+        </div>
+
+        <div class="div3">
+            <p class="p1">I am a blogger based in medina<br>to gingoog, specializing in<br>backpacking, hiking, food explore<br>and photography. Learn more here ▼
+            </p>
+            <!-- <button> READ MY BLOG </button>&nbsp;&nbsp;&nbsp;
+            <button> WATCH MY VIDEO </button> -->
+        </div>
+        <div class="div4">
+            <video width="410" height="200" autoplay loop muted>
+                <source src="./vid/bg2vid.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+        </div>
+        <div class="img1">
+            <img class="img2" src="./img/bg5.png" alt="img1">
+        </div>
+
+        <div class="title2">
+            <h1 class="tit0">Featured</h1>
+            <p class="tit2">FROM THE BLOG</p>
+        </div>
+    </section>
+
+    <section class="home2">
+        <div class="tab">
+            <button class="tablinks" data-tab="All">ALL</button>
+            <button class="tablinks" data-tab="TravelBlog">TRAVEL BLOG</button>
+            <button class="tablinks" data-tab="FoodBlog">FOOD BLOG</button>
+        </div>
+
+        <div id="All" class="tabcontent">
+            <h3 class="tab1">All Content</h3>
+            <p class="tabclass">"Welcome to a world of endless adventures! Join me as we explore travel, savor food, and embrace life's wonders together."</p>
+            <div class="box">
+                <div class="box1">
+                    <img class="im1" src="./img/bg7.png" alt="img1">
+                    <h1 class="t1">The Best Destinations<br>to Visit in Spring</h1>
+                    <!-- <p class="l1">LEARN MORE</p> -->
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box2">
+                    <img class="im1" src="./img/bg4 (1).png" alt="img1">
+                    <h1 class="t1">Guide to Starting a Successful Travel Blog</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box3">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div><br>
+            <div class="boxx">
+                <div class="box11">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box12">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box13">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="TravelBlog" class="tabcontent">
+            <h3 class="tab1">Travel Blog</h3>
+            <p class="tabclass">"Hey, wanderers! Let's journey across the globe, uncovering hidden gems, diverse cultures, and breathtaking landscapes. Get ready for an unforgettable adventure!"</p>
+            <div class="box">
+                <div class="box1">
+                    <img class="im1" src="./img/bg7.png" alt="img1">
+                    <h1 class="t1">The Best Destinations<br>to Visit in Spring</h1>
+                    <!-- <p class="l1">LEARN MORE</p> -->
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box2">
+                    <img class="im1" src="./img/bg4 (1).png" alt="img1">
+                    <h1 class="t1">Guide to Starting a Successful Travel Blog</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box3">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div><br>
+            <div class="boxx">
+                <div class="box11">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box12">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box13">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="FoodBlog" class="tabcontent">
+            <h3 class="tab1">Food Blog</h3>
+            <p class="tabclass">"Hello, foodies! Get ready for a tantalizing culinary journey around the world. Let's explore flavors that ignite the senses and stories that nourish the soul. Join me for a delectable adventure!"</p>
+            <div class="box">
+                <div class="box1">
+                    <img class="im1" src="./img/bg7.png" alt="img1">
+                    <h1 class="t1">The Best Destinations<br>to Visit in Spring</h1>
+                    <!-- <p class="l1">LEARN MORE</p> -->
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box2">
+                    <img class="im1" src="./img/bg4 (1).png" alt="img1">
+                    <h1 class="t1">Guide to Starting a Successful Travel Blog</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box3">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div><br>
+            <div class="boxx">
+                <div class="box11">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box12">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+                <div class="box13">
+                    <img class="im1" src="./img/bg8.jpg" alt="img1">
+                    <h1 class="t1">Travel Bucket List for<br>2024</h1>
+                    <button class="l1">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home3">
+        <div class="boxs">
+            <div class="box4">
+                <img class="im2" src="./img/bg8.jpg" alt="img1">
+                <div class="last">
+                    <img class="n1" src="./img/log2.png" alt="">
+                    <h1 class="n2">THE FORUM</h1>
+                </div>
+                <h1 class="a1">ABOUT MOLINA JAY</h1>
+                <p class="a2">You can call me Jay! I'm a Higa o<br>non native who left my career in<br>corporate finance to explore the<br>world. I split my home between<br>brgy sangalan and gingoog city<br>and have traveled to just 2 place!</p>
+                <button class="l2">VIEW THE FULL STORY</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="FOT1">
+        <!-- Sample HTML Form -->
+        <p class="ques">If you have more question just send your email here ▼</p>
+        <form class="form1" action="mailto:gccjaymolinapro@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+            Name
+            <input class="int1" type="text" size="19" name="Contact-Name" required><br><br> Email
+
+            <input class="int1" type="email" name="Contact-Email" required><br>
+
+            <p class="text">
+                Message
+                <textarea rows="8" name="comment" type="comment" class="feed" id="feedback-comment" required placeholder="Hey, I really love the site."></textarea>
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100070123092446" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/duhh.its_bbnude22/" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a>
+                <a href="https://x.com/Jay_200322?t=MudvSLR_pZKOVv3KYmv9Dw&s=09" target="_blank"><img src="./img/twitter.png" alt="Twitter"></a>
+            </div>
+            <button class="btn1" type="submit" value="Submit">Send</button>
+        </form>
+        <div class="container">
+            <div class="main">
+                <img class="imglast" src="./img/THE TRAVEL’S.png" alt="">
+                <h1 class="last1">THE FORUM</h1>
+            </div>
+            <div class="container1">
+                <div class="divs11">ABOUT ME
+                </div>
+                <div class="divs1">
+                    <ul class="uls">
+                        <a href="">
+                            <li>About THE FORUM</li>
+                        </a>
+                        <a href="">
+                            <li>Copyright</li>
+                        </a>
+                        <a href="">
+                            <li>Privacy Policy</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="divs12">TRAVEL TIPS
+                </div>
+                <div class="divs2">
+                    <ul class="uls">
+                        <a href="">
+                            <li>Start Here</li>
+                        </a>
+                        <a href="">
+                            <li>TRAVEL TIPS</li>
+                        </a>
+                        <a href="">
+                            <li>Destination Guides</li>
+                        </a>
+                    </ul>
+                </div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="divs13">SOCIAL
+                </div>
+                <div class="divs3">
+                    <ul class="uls">
+                        <a href="https://www.facebook.com/profile.php?id=100070123092446">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://www.instagram.com/duhh.its_bbnude22/">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://x.com/Jay_200322?t=MudvSLR_pZKOVv3KYmv9Dw&s=09">
+                            <li>Twitter</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="p2">&copy; 2024 THE FORUM. All rights reserved.</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
